@@ -1,0 +1,27 @@
+{
+    "Version": "1",
+    "Statement": [
+        {
+            "Action": [
+                "resourcemanager:GetResourceDirectory*",
+                "resourcemanager:ListAccount*",
+                "resourcemanager:GetFolder*",
+                "resourcemanager:ListFolder*",
+                "resourcemanager:ListAncestor*",
+                "resourcemanager:ListChildren*",
+                "resourcemanager:GetHandshake*",
+                "resourcemanager:ListHandshake*",
+                "resourcemanager:ListTrustedServiceStatus",
+                "resourcemanager:GetAccount",
+                "resourcemanager:GetControlPolicy*",
+                "resourcemanager:ListControlPolicies",
+                "resourcemanager:ListControlPolicyAttachmentsForTarget",
+                "resourcemanager:ListTargetAttachmentsForControlPolicy",
+                "resourcemanager:ListDelegatedAdministrators",
+                "resourcemanager:ListDelegatedServicesForAccount"
+            ],
+            "Resource": "*",
+            "Effect": "Allow"
+        }
+    ]
+}

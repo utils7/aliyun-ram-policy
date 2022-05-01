@@ -1,0 +1,24 @@
+{
+    "Version": "1",
+    "Statement": [
+        {
+            "Action": [
+                "*:Describe*",
+                "*:List*",
+                "*:Get*",
+                "*:BatchGet*",
+                "*:Query*",
+                "*:BatchQuery*",
+                "actiontrail:LookupEvents",
+                "actiontrail:Check*",
+                "dm:Desc*",
+                "dm:SenderStatistics*",
+                "ram:GenerateCredentialReport",
+                "cloudsso:Check*",
+                "notifications:Read*"
+            ],
+            "Resource": "*",
+            "Effect": "Allow"
+        }
+    ]
+}

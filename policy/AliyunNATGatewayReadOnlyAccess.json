@@ -1,0 +1,15 @@
+{
+    "Version": "1",
+    "Statement": [
+        {
+            "Action": [
+                "vpc:DescribeNatGateway*",
+                "vpc:DescribeBandwidthPackage*",
+                "vpc:DescribeSnatTableEntr*",
+                "vpc:DescribeForwardTableEntr*"
+            ],
+            "Resource": "*",
+            "Effect": "Allow"
+        }
+    ]
+}

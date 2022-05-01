@@ -1,0 +1,21 @@
+{
+    "Version": "1",
+    "Statement": [
+        {
+            "Action": [
+                "vpc:*HaVip*",
+                "vpc:*RouteTable*",
+                "vpc:*VRouter*",
+                "vpc:*RouteEntry*",
+                "vpc:*VSwitch*",
+                "vpc:*Vpc*",
+                "vpc:*Cen*",
+                "vpc:*Tag*",
+                "vpc:*NetworkAcl*",
+                "vpc:*FlowLog*"
+            ],
+            "Resource": "*",
+            "Effect": "Allow"
+        }
+    ]
+}

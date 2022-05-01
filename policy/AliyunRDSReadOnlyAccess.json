@@ -1,0 +1,20 @@
+{
+    "Version": "1",
+    "Statement": [
+        {
+            "Action": "rds:Describe*",
+            "Effect": "Allow",
+            "Resource": "*"
+        },
+        {
+            "Action": [
+                "hdm:Get*",
+                "hdm:Describe*",
+                "hdm:Query*",
+                "hdm:Support*"
+            ],
+            "Effect": "Allow",
+            "Resource": "acs:rds:*:*:*"
+        }
+    ]
+}
